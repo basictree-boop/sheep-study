@@ -343,7 +343,7 @@ function fmtMins(m) {
   return rem > 0 ? `${h}時間${rem}分` : `${h}時間`;
 }
 
-const GAS_URL = ""; // 羊スタディ用のApps Script URLをここに設定してください
+const GAS_URL = "https://script.google.com/macros/s/AKfycbySC0fiO_6w8GrLebs0JCHWX9nCSDpTI38nsUCVE_7R7g42Ih4_vtwsXiutN2q-ropZSg/exec";
 
 // 日本時間（JST）でYYYY-MM-DDを返す
 function getJSTDateString(date = new Date()) {
